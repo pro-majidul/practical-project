@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    font-family: Work Sans;
+
+}
+#banner{
+    height:615px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    width: 648px;
+    text-align: center;
+}
+.content > .txt{
+    color: white;
+    opacity: 0.8;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: "Work Sans", sans-serif;
+    letter-spacing: 0%;
+    font-weight: 500;
+   
+}
+.content .title{
+    margin: 12px 0;
+    font-size: 38px;
+    color: white;
+    font-weight: 700;
+    line-height: 1em;
+    font-family: 'work-sans' , sans-serif;
+
+}
+.content .txt-1{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+}
+.btn{
+margin-top: 30px;
+border: none;
+border-radius: 8px;
+background: rgb(82, 195, 3);
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0%;
+padding: 10px 15px;
+}
+
+
+
+/* section area style  */
+
+
+#card-box{
+    width: 850px;
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+}
+#card-box .grid-gap{
+    display:flex;
+   
+}
+#card-box  .card-content{
+    margin: 48px 0;
+    width: 100%2;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#card-box  .card-content > p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+#card-box  .card-content > h3{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center; 
+    width: 50%;
+    
+}
+#card-box  .card-style {
+    
+    width: 220px;
+    height:270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;   
+}
+#card-box  .card-style > .card-body{
+    width: 220px;
+}
+#card-box  .card-style > .card-body > img{
+    width: 100%;
+}
+#card-box  .card-style > .card-body-content{
+    width: 220px;
+    margin: 16px 0;
+}
+#card-box  .card-style > .card-body-content .rate{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#card-box  .card-style > .card-body-content > .rate  > span{
+    background-color: rgba(152, 194, 194, 0.349);
+    padding: 5px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#card-box  .card-style > .card-body-content > h3 {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    margin: 18px;
+}
+#card-box  .card-style > .card-body-content > p {
+    color: rgba(16, 16, 16, 0.801);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+   
+}
+
+#card-box > .boton {
+    text-align: center;
+    margin-top: 9px;
+}
+
+
+/* social area style  */
+
+
+.socio-content{
+ height: 450px;
+ background: url("../assets/Social.png");
+
+}
+.contents{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+   
+}
+.contents > h3 {
+    margin:30px 0 20px 0;
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.contents > p {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 26px;
+}
+.contents button{
+    background-color: transparent;
+    padding: 10px 5px;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    color: rgba(0, 0, 0, 0.705);
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+.contents button:hover{
+    border: 1px solid blue;
+    
+}
+.socio-icon{
+    width:200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+}
+
+ a {
+    display: inline-block;
+    margin: 30px 0 10px 0;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+ a:first-child {
+    color: rgb(0, 178, 255);
+}
+ a:nth-child(2){
+    color: rgb(0, 0, 0);;
+}
+ a:nth-child(3){
+    color: brown;
+}
+ a:last-child{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: rgb(225, 49, 56);
+    line-height: 1.5;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+/* about us section style  */
+.about-us{
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+}.about-us .img{
+    width: 45%;
+}
+.img img{
+    width: 100%;
+}
